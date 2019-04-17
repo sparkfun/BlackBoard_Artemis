@@ -29814,7 +29814,7 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="10NF" device="-0603-50V-10%" value="10nF"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="JP3" library="SparkFun" deviceset="STAND-OFF" device=""/>
