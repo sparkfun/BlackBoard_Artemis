@@ -27551,10 +27551,10 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <rectangle x1="-4.7993" y1="5.712378125" x2="-4.2024" y2="6.309278125" layer="49"/>
 </package>
 <package name="ARTEMIS_FP">
-<wire x1="-7" y1="-5" x2="8" y2="-5" width="0.127" layer="51"/>
-<wire x1="8" y1="-5" x2="8" y2="5" width="0.127" layer="51"/>
-<wire x1="8" y1="5" x2="-7" y2="5" width="0.127" layer="51"/>
-<wire x1="-7" y1="5" x2="-7" y2="-5" width="0.127" layer="51"/>
+<wire x1="-7" y1="-5" x2="8" y2="-5" width="0.127" layer="21"/>
+<wire x1="8" y1="-5" x2="8" y2="5" width="0.127" layer="21"/>
+<wire x1="8" y1="5" x2="-7" y2="5" width="0.127" layer="21"/>
+<wire x1="-7" y1="5" x2="-7" y2="-5" width="0.127" layer="21"/>
 <rectangle x1="-5.7" y1="-4.8" x2="-5.3" y2="-4.2" layer="51"/>
 <rectangle x1="-4.7" y1="-4.8" x2="-4.3" y2="-4.2" layer="51"/>
 <rectangle x1="-2.7" y1="-4.8" x2="-2.3" y2="-4.2" layer="51"/>
@@ -27773,7 +27773,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pin name="XO" x="-33.02" y="0" visible="pin" length="short"/>
 <pin name="~AD11" x="-33.02" y="-7.62" visible="pin" length="short"/>
 <pin name="~AD12" x="-33.02" y="-10.16" visible="pin" length="short"/>
-<pin name="~AD13(I2S)" x="-33.02" y="-12.7" visible="pin" length="short"/>
+<pin name="~AD13(I2SCLK)" x="-33.02" y="-12.7" visible="pin" length="short"/>
 <pin name="AD16(CMPIN0)" x="-33.02" y="-15.24" visible="pin" length="short"/>
 <pin name="~AD29(PDMDATA)" x="-33.02" y="-17.78" visible="pin" length="short"/>
 <pin name="~AD31(RTS1/SCCLK)" x="-33.02" y="-20.32" visible="pin" length="short"/>
@@ -27882,9 +27882,9 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 </device>
 </devices>
 </deviceset>
-<deviceset name="ARTEMIS_MODULE">
+<deviceset name="ARTEMIS_MODULE" prefix="U">
 <gates>
-<gate name="G$1" symbol="ARTEMIS_MODULE" x="0" y="3.81"/>
+<gate name="G$1" symbol="ARTEMIS_MODULE" x="0" y="-1.27"/>
 </gates>
 <devices>
 <device name="SINGLE" package="ARTEMIS_FP_0.027&quot;_OFFSET">
@@ -27936,7 +27936,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <connect gate="G$1" pin="XO" pad="XO"/>
 <connect gate="G$1" pin="~AD11" pad="~AD11"/>
 <connect gate="G$1" pin="~AD12" pad="~AD12"/>
-<connect gate="G$1" pin="~AD13(I2S)" pad="~AD13"/>
+<connect gate="G$1" pin="~AD13(I2SCLK)" pad="~AD13"/>
 <connect gate="G$1" pin="~AD29(PDMDATA)" pad="~AD29"/>
 <connect gate="G$1" pin="~AD31(RTS1/SCCLK)" pad="~AD31"/>
 <connect gate="G$1" pin="~AD32(SCIO)" pad="~AD32"/>
@@ -27996,7 +27996,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <connect gate="G$1" pin="XO" pad="XO"/>
 <connect gate="G$1" pin="~AD11" pad="~AD11"/>
 <connect gate="G$1" pin="~AD12" pad="~AD12"/>
-<connect gate="G$1" pin="~AD13(I2S)" pad="~AD13"/>
+<connect gate="G$1" pin="~AD13(I2SCLK)" pad="~AD13"/>
 <connect gate="G$1" pin="~AD29(PDMDATA)" pad="~AD29"/>
 <connect gate="G$1" pin="~AD31(RTS1/SCCLK)" pad="~AD31"/>
 <connect gate="G$1" pin="~AD32(SCIO)" pad="~AD32"/>
@@ -28056,7 +28056,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <connect gate="G$1" pin="XO" pad="XO"/>
 <connect gate="G$1" pin="~AD11" pad="~AD11"/>
 <connect gate="G$1" pin="~AD12" pad="~AD12"/>
-<connect gate="G$1" pin="~AD13(I2S)" pad="~AD13"/>
+<connect gate="G$1" pin="~AD13(I2SCLK)" pad="~AD13"/>
 <connect gate="G$1" pin="~AD29(PDMDATA)" pad="~AD29"/>
 <connect gate="G$1" pin="~AD31(RTS1/SCCLK)" pad="~AD31"/>
 <connect gate="G$1" pin="~AD32(SCIO)" pad="~AD32"/>
@@ -31242,7 +31242,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="~AD13(I2S)"/>
+<pinref part="U4" gate="G$1" pin="~AD13(I2SCLK)"/>
 <wire x1="314.96" y1="114.3" x2="312.42" y2="114.3" width="0.1524" layer="91"/>
 <label x="312.42" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
