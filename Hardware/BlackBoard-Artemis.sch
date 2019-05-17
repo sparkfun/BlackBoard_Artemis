@@ -31337,7 +31337,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <text x="187.96" y="170.18" size="1.27" layer="97">Cut jumper for
 current measurements</text>
 <text x="122.174" y="180.086" size="2.54" layer="94" font="vector" ratio="15" align="center">Power Supplies</text>
-<text x="78.994" y="78.486" size="2.54" layer="94" font="vector" ratio="15" align="center">Microphones</text>
+<text x="35.814" y="81.026" size="2.54" layer="94" font="vector" ratio="15" align="center">Microphone</text>
 <wire x1="0" y1="96.52" x2="147.32" y2="96.52" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="96.52" x2="248.92" y2="96.52" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="96.52" width="0.2032" layer="97" style="longdash"/>
