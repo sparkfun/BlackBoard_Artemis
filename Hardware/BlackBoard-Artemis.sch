@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -27762,57 +27762,57 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="-30.48" y1="-45.72" x2="-30.48" y2="40.64" width="0.1524" layer="94"/>
 <pin name="VDD*2" x="-33.02" y="38.1" visible="pin" length="short"/>
 <pin name="GND*6" x="-33.02" y="-43.18" visible="pin" length="short"/>
-<pin name="TX0(P/SCL5/SCK5)" x="-33.02" y="20.32" visible="pin" length="short"/>
-<pin name="RX0(P/SDA5/MISO5)" x="-33.02" y="17.78" visible="pin" length="short"/>
+<pin name="~D48(TX0/SCL5/SCK5)" x="-33.02" y="20.32" visible="pin" length="short"/>
+<pin name="~D49(RX0/SDA5/MISO5)" x="-33.02" y="17.78" visible="pin" length="short"/>
 <pin name="!RST" x="-33.02" y="33.02" visible="pin" length="short"/>
-<pin name="BOOT(P/MOSI5/RX1/32KHZ)" x="-33.02" y="27.94" visible="pin" length="short"/>
-<pin name="SWDIO" x="-33.02" y="10.16" visible="pin" length="short"/>
-<pin name="SWDCK" x="-33.02" y="7.62" visible="pin" length="short"/>
-<pin name="~AD33(SWO)" x="-33.02" y="-25.4" visible="pin" length="short"/>
+<pin name="~BOOT(MOSI5/RX1/32KHZ)" x="-33.02" y="27.94" visible="pin" length="short"/>
+<pin name="D21(SWDIO/RX1/SCCRST)" x="-33.02" y="10.16" visible="pin" length="short"/>
+<pin name="D20(SWDCK/TX1)" x="-33.02" y="7.62" visible="pin" length="short"/>
+<pin name="~AD33(SWO/32KHZ)" x="-33.02" y="-25.4" visible="pin" length="short"/>
 <pin name="XI" x="-33.02" y="2.54" visible="pin" length="short"/>
 <pin name="XO" x="-33.02" y="0" visible="pin" length="short"/>
-<pin name="~AD11" x="-33.02" y="-7.62" visible="pin" length="short"/>
-<pin name="~AD12" x="-33.02" y="-10.16" visible="pin" length="short"/>
-<pin name="~AD13(I2SCLK)" x="-33.02" y="-12.7" visible="pin" length="short"/>
-<pin name="AD16(CMPIN0)" x="-33.02" y="-15.24" visible="pin" length="short"/>
+<pin name="~AD11(PDMDATA)" x="-33.02" y="-7.62" visible="pin" length="short"/>
+<pin name="~AD12(PDMCLK/TX1)" x="-33.02" y="-10.16" visible="pin" length="short"/>
+<pin name="~AD13(I2SBCLK/RX1)" x="-33.02" y="-12.7" visible="pin" length="short"/>
+<pin name="AD16(TRIG0/SCCRST)" x="-33.02" y="-15.24" visible="pin" length="short"/>
 <pin name="~AD29(PDMDATA)" x="-33.02" y="-17.78" visible="pin" length="short"/>
-<pin name="~AD31(RTS1/SCCLK)" x="-33.02" y="-20.32" visible="pin" length="short"/>
-<pin name="~AD32(SCIO)" x="-33.02" y="-22.86" visible="pin" length="short"/>
-<pin name="AD34(CMPRF2)" x="-33.02" y="-27.94" visible="pin" length="short"/>
-<pin name="~AD35(I2SDAT)" x="-33.02" y="-30.48" visible="pin" length="short"/>
+<pin name="~AD31(SCCCLK)" x="-33.02" y="-20.32" visible="pin" length="short"/>
+<pin name="~AD32(SCCIO)" x="-33.02" y="-22.86" visible="pin" length="short"/>
+<pin name="AD34(CMPRF2/PDMDATA)" x="-33.02" y="-27.94" visible="pin" length="short"/>
+<pin name="~AD35(TX1/I2SDAT/PDMCLK)" x="-33.02" y="-30.48" visible="pin" length="short"/>
 <pin name="(SLSCK/SLSCL/CLKOUT)D0" x="35.56" y="38.1" visible="pin" length="short" rot="R180"/>
 <pin name="(SLMOSI/SLSDA)D1" x="35.56" y="35.56" visible="pin" length="short" rot="R180"/>
 <pin name="(SLMISO)D2" x="35.56" y="33.02" visible="pin" length="short" rot="R180"/>
-<pin name="(SLNCE)D3" x="35.56" y="30.48" visible="pin" length="short" rot="R180"/>
-<pin name="(RX1)~D4" x="35.56" y="27.94" visible="pin" length="short" rot="R180"/>
+<pin name="(SLNCE/I2SWCLK)D3" x="35.56" y="30.48" visible="pin" length="short" rot="R180"/>
+<pin name="(RX1/SLINT)~D4" x="35.56" y="27.94" visible="pin" length="short" rot="R180"/>
 <pin name="(SCL0/SCK0)~D5" x="35.56" y="25.4" visible="pin" length="short" rot="R180"/>
 <pin name="(SDA0/MISO0/I2SDAT)~D6" x="35.56" y="22.86" visible="pin" length="short" rot="R180"/>
-<pin name="(MOSI0/CLKOUT)D7" x="35.56" y="20.32" visible="pin" length="short" rot="R180"/>
+<pin name="(MOSI0/CLKOUT)~D7" x="35.56" y="20.32" visible="pin" length="short" rot="R180"/>
 <pin name="(SCL1/SCK1/TX1/SCCLK)D8" x="35.56" y="17.78" visible="pin" length="short" rot="R180"/>
 <pin name="(SDA1/MISO1/RX1/SCCIO)D9" x="35.56" y="15.24" visible="pin" length="short" rot="R180"/>
 <pin name="(MOSI1/TX1/PDMCLK)D10" x="35.56" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="(ADCD1P)D14" x="35.56" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="(ADCD1N)D15" x="35.56" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="(CMPRF1)D17" x="35.56" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="(CMPIN1)~D18" x="35.56" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="(CMPRF0)~D19" x="35.56" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="(PDMCLK)~D22" x="35.56" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="(CMPOUT)~D23" x="35.56" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="(TX1/32KHZ)~D24" x="35.56" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="(CTS1/SCRST)~D26" x="35.56" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="(ADCD1P/TX1/PDMCLK)D14" x="35.56" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="(ADCD1N/RX1/PDMDATA)D15" x="35.56" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="(CMPRF1/TRIG1/SCCCLK)D17" x="35.56" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="(CMPIN1/SCCIO)~D18" x="35.56" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="(CMPRF0/SCCCLK/I2SBCLK)~D19" x="35.56" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="(PDMCLK/SWO)~D22" x="35.56" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="(I2SWCLK/CMPOUT)~D23" x="35.56" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="(TX1/32KHZ/SWO)~D24" x="35.56" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="(SCCRST)~D26" x="35.56" y="-12.7" visible="pin" length="short" rot="R180"/>
 <pin name="(SDA2/MISO2/RX1)~D25" x="35.56" y="-10.16" visible="pin" length="short" rot="R180"/>
 <pin name="(SCL2/SCK2)~D27" x="35.56" y="-15.24" visible="pin" length="short" rot="R180"/>
 <pin name="(MOSI2/I2SWCLK)~D28" x="35.56" y="-17.78" visible="pin" length="short" rot="R180"/>
-<pin name="(RX1/PDMDATA)D36" x="35.56" y="-20.32" visible="pin" length="short" rot="R180"/>
-<pin name="(PDMCLK/SCCIO)~D37" x="35.56" y="-22.86" visible="pin" length="short" rot="R180"/>
+<pin name="(RX1/TRIG1/PDMDATA)D36" x="35.56" y="-20.32" visible="pin" length="short" rot="R180"/>
+<pin name="(TX1/PDMCLK/SCCIO)~D37" x="35.56" y="-22.86" visible="pin" length="short" rot="R180"/>
 <pin name="(MOSI3/RX1)D38" x="35.56" y="-25.4" visible="pin" length="short" rot="R180"/>
 <pin name="(SCL4/SCK4/TX1)~D39" x="35.56" y="-27.94" visible="pin" length="short" rot="R180"/>
 <pin name="(SDA4/MISO4/RX1)D40" x="35.56" y="-30.48" visible="pin" length="short" rot="R180"/>
-<pin name="(BLEIF_IRA/SWO)D41" x="35.56" y="-33.02" visible="pin" length="short" rot="R180"/>
+<pin name="(BLEIF_IRQ/SWO/I2SWCLK)D41" x="35.56" y="-33.02" visible="pin" length="short" rot="R180"/>
 <pin name="(SCL3/SCK3/TX1)~D42" x="35.56" y="-35.56" visible="pin" length="short" rot="R180"/>
 <pin name="(SDA3/MISO3/RX1)~D43" x="35.56" y="-38.1" visible="pin" length="short" rot="R180"/>
 <pin name="(MOSI4)~D44" x="35.56" y="-40.64" visible="pin" length="short" rot="R180"/>
-<pin name="(SWO)~D45" x="35.56" y="-43.18" visible="pin" length="short" rot="R180"/>
+<pin name="(SWO/I2SDAT/PDMDATA)~D45" x="35.56" y="-43.18" visible="pin" length="short" rot="R180"/>
 <text x="-30.48" y="41.148" size="1.778" layer="95">&gt;Name</text>
 <text x="-30.48" y="-48.26" size="1.778" layer="96">&gt;Value</text>
 </symbol>
@@ -27884,64 +27884,64 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 </deviceset>
 <deviceset name="ARTEMIS_MODULE" prefix="U">
 <gates>
-<gate name="G$1" symbol="ARTEMIS_MODULE" x="0" y="-1.27"/>
+<gate name="U1" symbol="ARTEMIS_MODULE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="SINGLE" package="ARTEMIS_FP_0.027&quot;_OFFSET">
 <connects>
-<connect gate="G$1" pin="!RST" pad="!RST"/>
-<connect gate="G$1" pin="(ADCD1N)D15" pad="D15"/>
-<connect gate="G$1" pin="(ADCD1P)D14" pad="D14"/>
-<connect gate="G$1" pin="(BLEIF_IRA/SWO)D41" pad="D41"/>
-<connect gate="G$1" pin="(CMPIN1)~D18" pad="~D18"/>
-<connect gate="G$1" pin="(CMPOUT)~D23" pad="~D23"/>
-<connect gate="G$1" pin="(CMPRF0)~D19" pad="~D19"/>
-<connect gate="G$1" pin="(CMPRF1)D17" pad="D17"/>
-<connect gate="G$1" pin="(CTS1/SCRST)~D26" pad="~D26"/>
-<connect gate="G$1" pin="(MOSI0/CLKOUT)D7" pad="D7"/>
-<connect gate="G$1" pin="(MOSI1/TX1/PDMCLK)D10" pad="D10"/>
-<connect gate="G$1" pin="(MOSI2/I2SWCLK)~D28" pad="~D28"/>
-<connect gate="G$1" pin="(MOSI3/RX1)D38" pad="D38"/>
-<connect gate="G$1" pin="(MOSI4)~D44" pad="~D44"/>
-<connect gate="G$1" pin="(PDMCLK)~D22" pad="~D22"/>
-<connect gate="G$1" pin="(PDMCLK/SCCIO)~D37" pad="~D37"/>
-<connect gate="G$1" pin="(RX1)~D4" pad="~D4"/>
-<connect gate="G$1" pin="(RX1/PDMDATA)D36" pad="D36"/>
-<connect gate="G$1" pin="(SCL0/SCK0)~D5" pad="~D5"/>
-<connect gate="G$1" pin="(SCL1/SCK1/TX1/SCCLK)D8" pad="D8"/>
-<connect gate="G$1" pin="(SCL2/SCK2)~D27" pad="~D27"/>
-<connect gate="G$1" pin="(SCL3/SCK3/TX1)~D42" pad="~D42"/>
-<connect gate="G$1" pin="(SCL4/SCK4/TX1)~D39" pad="~D39"/>
-<connect gate="G$1" pin="(SDA0/MISO0/I2SDAT)~D6" pad="~D6"/>
-<connect gate="G$1" pin="(SDA1/MISO1/RX1/SCCIO)D9" pad="D9"/>
-<connect gate="G$1" pin="(SDA2/MISO2/RX1)~D25" pad="~D25"/>
-<connect gate="G$1" pin="(SDA3/MISO3/RX1)~D43" pad="~D43"/>
-<connect gate="G$1" pin="(SDA4/MISO4/RX1)D40" pad="D40"/>
-<connect gate="G$1" pin="(SLMISO)D2" pad="D2"/>
-<connect gate="G$1" pin="(SLMOSI/SLSDA)D1" pad="D1"/>
-<connect gate="G$1" pin="(SLNCE)D3" pad="D3"/>
-<connect gate="G$1" pin="(SLSCK/SLSCL/CLKOUT)D0" pad="D0"/>
-<connect gate="G$1" pin="(SWO)~D45" pad="~D45"/>
-<connect gate="G$1" pin="(TX1/32KHZ)~D24" pad="~D24"/>
-<connect gate="G$1" pin="AD16(CMPIN0)" pad="AD16"/>
-<connect gate="G$1" pin="AD34(CMPRF2)" pad="AD34"/>
-<connect gate="G$1" pin="BOOT(P/MOSI5/RX1/32KHZ)" pad="BOOT"/>
-<connect gate="G$1" pin="GND*6" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6"/>
-<connect gate="G$1" pin="RX0(P/SDA5/MISO5)" pad="RX0"/>
-<connect gate="G$1" pin="SWDCK" pad="SWDCK"/>
-<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
-<connect gate="G$1" pin="TX0(P/SCL5/SCK5)" pad="TX0"/>
-<connect gate="G$1" pin="VDD*2" pad="VDD@1 VDD@2"/>
-<connect gate="G$1" pin="XI" pad="XI"/>
-<connect gate="G$1" pin="XO" pad="XO"/>
-<connect gate="G$1" pin="~AD11" pad="~AD11"/>
-<connect gate="G$1" pin="~AD12" pad="~AD12"/>
-<connect gate="G$1" pin="~AD13(I2SCLK)" pad="~AD13"/>
-<connect gate="G$1" pin="~AD29(PDMDATA)" pad="~AD29"/>
-<connect gate="G$1" pin="~AD31(RTS1/SCCLK)" pad="~AD31"/>
-<connect gate="G$1" pin="~AD32(SCIO)" pad="~AD32"/>
-<connect gate="G$1" pin="~AD33(SWO)" pad="~AD33"/>
-<connect gate="G$1" pin="~AD35(I2SDAT)" pad="~AD35"/>
+<connect gate="U1" pin="!RST" pad="!RST"/>
+<connect gate="U1" pin="(ADCD1N/RX1/PDMDATA)D15" pad="D15"/>
+<connect gate="U1" pin="(ADCD1P/TX1/PDMCLK)D14" pad="D14"/>
+<connect gate="U1" pin="(BLEIF_IRQ/SWO/I2SWCLK)D41" pad="D41"/>
+<connect gate="U1" pin="(CMPIN1/SCCIO)~D18" pad="~D18"/>
+<connect gate="U1" pin="(CMPRF0/SCCCLK/I2SBCLK)~D19" pad="~D19"/>
+<connect gate="U1" pin="(CMPRF1/TRIG1/SCCCLK)D17" pad="D17"/>
+<connect gate="U1" pin="(I2SWCLK/CMPOUT)~D23" pad="~D23"/>
+<connect gate="U1" pin="(MOSI0/CLKOUT)~D7" pad="D7"/>
+<connect gate="U1" pin="(MOSI1/TX1/PDMCLK)D10" pad="D10"/>
+<connect gate="U1" pin="(MOSI2/I2SWCLK)~D28" pad="~D28"/>
+<connect gate="U1" pin="(MOSI3/RX1)D38" pad="D38"/>
+<connect gate="U1" pin="(MOSI4)~D44" pad="~D44"/>
+<connect gate="U1" pin="(PDMCLK/SWO)~D22" pad="~D22"/>
+<connect gate="U1" pin="(RX1/SLINT)~D4" pad="~D4"/>
+<connect gate="U1" pin="(RX1/TRIG1/PDMDATA)D36" pad="D36"/>
+<connect gate="U1" pin="(SCCRST)~D26" pad="~D26"/>
+<connect gate="U1" pin="(SCL0/SCK0)~D5" pad="~D5"/>
+<connect gate="U1" pin="(SCL1/SCK1/TX1/SCCLK)D8" pad="D8"/>
+<connect gate="U1" pin="(SCL2/SCK2)~D27" pad="~D27"/>
+<connect gate="U1" pin="(SCL3/SCK3/TX1)~D42" pad="~D42"/>
+<connect gate="U1" pin="(SCL4/SCK4/TX1)~D39" pad="~D39"/>
+<connect gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6" pad="~D6"/>
+<connect gate="U1" pin="(SDA1/MISO1/RX1/SCCIO)D9" pad="D9"/>
+<connect gate="U1" pin="(SDA2/MISO2/RX1)~D25" pad="~D25"/>
+<connect gate="U1" pin="(SDA3/MISO3/RX1)~D43" pad="~D43"/>
+<connect gate="U1" pin="(SDA4/MISO4/RX1)D40" pad="D40"/>
+<connect gate="U1" pin="(SLMISO)D2" pad="D2"/>
+<connect gate="U1" pin="(SLMOSI/SLSDA)D1" pad="D1"/>
+<connect gate="U1" pin="(SLNCE/I2SWCLK)D3" pad="D3"/>
+<connect gate="U1" pin="(SLSCK/SLSCL/CLKOUT)D0" pad="D0"/>
+<connect gate="U1" pin="(SWO/I2SDAT/PDMDATA)~D45" pad="~D45"/>
+<connect gate="U1" pin="(TX1/32KHZ/SWO)~D24" pad="~D24"/>
+<connect gate="U1" pin="(TX1/PDMCLK/SCCIO)~D37" pad="~D37"/>
+<connect gate="U1" pin="AD16(TRIG0/SCCRST)" pad="AD16"/>
+<connect gate="U1" pin="AD34(CMPRF2/PDMDATA)" pad="AD34"/>
+<connect gate="U1" pin="D20(SWDCK/TX1)" pad="SWDCK"/>
+<connect gate="U1" pin="D21(SWDIO/RX1/SCCRST)" pad="SWDIO"/>
+<connect gate="U1" pin="GND*6" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6"/>
+<connect gate="U1" pin="VDD*2" pad="VDD@1 VDD@2"/>
+<connect gate="U1" pin="XI" pad="XI"/>
+<connect gate="U1" pin="XO" pad="XO"/>
+<connect gate="U1" pin="~AD11(PDMDATA)" pad="~AD11"/>
+<connect gate="U1" pin="~AD12(PDMCLK/TX1)" pad="~AD12"/>
+<connect gate="U1" pin="~AD13(I2SBCLK/RX1)" pad="~AD13"/>
+<connect gate="U1" pin="~AD29(PDMDATA)" pad="~AD29"/>
+<connect gate="U1" pin="~AD31(SCCCLK)" pad="~AD31"/>
+<connect gate="U1" pin="~AD32(SCCIO)" pad="~AD32"/>
+<connect gate="U1" pin="~AD33(SWO/32KHZ)" pad="~AD33"/>
+<connect gate="U1" pin="~AD35(TX1/I2SDAT/PDMCLK)" pad="~AD35"/>
+<connect gate="U1" pin="~BOOT(MOSI5/RX1/32KHZ)" pad="BOOT"/>
+<connect gate="U1" pin="~D48(TX0/SCL5/SCK5)" pad="TX0"/>
+<connect gate="U1" pin="~D49(RX0/SDA5/MISO5)" pad="RX0"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -27949,59 +27949,59 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 </device>
 <device name="" package="ARTEMIS_FP_0.027&quot;">
 <connects>
-<connect gate="G$1" pin="!RST" pad="!RST"/>
-<connect gate="G$1" pin="(ADCD1N)D15" pad="D15"/>
-<connect gate="G$1" pin="(ADCD1P)D14" pad="D14"/>
-<connect gate="G$1" pin="(BLEIF_IRA/SWO)D41" pad="D41"/>
-<connect gate="G$1" pin="(CMPIN1)~D18" pad="~D18"/>
-<connect gate="G$1" pin="(CMPOUT)~D23" pad="~D23"/>
-<connect gate="G$1" pin="(CMPRF0)~D19" pad="~D19"/>
-<connect gate="G$1" pin="(CMPRF1)D17" pad="D17"/>
-<connect gate="G$1" pin="(CTS1/SCRST)~D26" pad="~D26"/>
-<connect gate="G$1" pin="(MOSI0/CLKOUT)D7" pad="D7"/>
-<connect gate="G$1" pin="(MOSI1/TX1/PDMCLK)D10" pad="D10"/>
-<connect gate="G$1" pin="(MOSI2/I2SWCLK)~D28" pad="~D28"/>
-<connect gate="G$1" pin="(MOSI3/RX1)D38" pad="D38"/>
-<connect gate="G$1" pin="(MOSI4)~D44" pad="~D44"/>
-<connect gate="G$1" pin="(PDMCLK)~D22" pad="~D22"/>
-<connect gate="G$1" pin="(PDMCLK/SCCIO)~D37" pad="~D37"/>
-<connect gate="G$1" pin="(RX1)~D4" pad="~D4"/>
-<connect gate="G$1" pin="(RX1/PDMDATA)D36" pad="D36"/>
-<connect gate="G$1" pin="(SCL0/SCK0)~D5" pad="~D5"/>
-<connect gate="G$1" pin="(SCL1/SCK1/TX1/SCCLK)D8" pad="D8"/>
-<connect gate="G$1" pin="(SCL2/SCK2)~D27" pad="~D27"/>
-<connect gate="G$1" pin="(SCL3/SCK3/TX1)~D42" pad="~D42"/>
-<connect gate="G$1" pin="(SCL4/SCK4/TX1)~D39" pad="~D39"/>
-<connect gate="G$1" pin="(SDA0/MISO0/I2SDAT)~D6" pad="~D6"/>
-<connect gate="G$1" pin="(SDA1/MISO1/RX1/SCCIO)D9" pad="D9"/>
-<connect gate="G$1" pin="(SDA2/MISO2/RX1)~D25" pad="~D25"/>
-<connect gate="G$1" pin="(SDA3/MISO3/RX1)~D43" pad="~D43"/>
-<connect gate="G$1" pin="(SDA4/MISO4/RX1)D40" pad="D40"/>
-<connect gate="G$1" pin="(SLMISO)D2" pad="D2"/>
-<connect gate="G$1" pin="(SLMOSI/SLSDA)D1" pad="D1"/>
-<connect gate="G$1" pin="(SLNCE)D3" pad="D3"/>
-<connect gate="G$1" pin="(SLSCK/SLSCL/CLKOUT)D0" pad="D0"/>
-<connect gate="G$1" pin="(SWO)~D45" pad="~D45"/>
-<connect gate="G$1" pin="(TX1/32KHZ)~D24" pad="~D24"/>
-<connect gate="G$1" pin="AD16(CMPIN0)" pad="AD16"/>
-<connect gate="G$1" pin="AD34(CMPRF2)" pad="AD34"/>
-<connect gate="G$1" pin="BOOT(P/MOSI5/RX1/32KHZ)" pad="BOOT"/>
-<connect gate="G$1" pin="GND*6" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6"/>
-<connect gate="G$1" pin="RX0(P/SDA5/MISO5)" pad="RX0"/>
-<connect gate="G$1" pin="SWDCK" pad="SWDCK"/>
-<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
-<connect gate="G$1" pin="TX0(P/SCL5/SCK5)" pad="TX0"/>
-<connect gate="G$1" pin="VDD*2" pad="VDD@1 VDD@2"/>
-<connect gate="G$1" pin="XI" pad="XI"/>
-<connect gate="G$1" pin="XO" pad="XO"/>
-<connect gate="G$1" pin="~AD11" pad="~AD11"/>
-<connect gate="G$1" pin="~AD12" pad="~AD12"/>
-<connect gate="G$1" pin="~AD13(I2SCLK)" pad="~AD13"/>
-<connect gate="G$1" pin="~AD29(PDMDATA)" pad="~AD29"/>
-<connect gate="G$1" pin="~AD31(RTS1/SCCLK)" pad="~AD31"/>
-<connect gate="G$1" pin="~AD32(SCIO)" pad="~AD32"/>
-<connect gate="G$1" pin="~AD33(SWO)" pad="~AD33"/>
-<connect gate="G$1" pin="~AD35(I2SDAT)" pad="~AD35"/>
+<connect gate="U1" pin="!RST" pad="!RST"/>
+<connect gate="U1" pin="(ADCD1N/RX1/PDMDATA)D15" pad="D15"/>
+<connect gate="U1" pin="(ADCD1P/TX1/PDMCLK)D14" pad="D14"/>
+<connect gate="U1" pin="(BLEIF_IRQ/SWO/I2SWCLK)D41" pad="D41"/>
+<connect gate="U1" pin="(CMPIN1/SCCIO)~D18" pad="~D18"/>
+<connect gate="U1" pin="(CMPRF0/SCCCLK/I2SBCLK)~D19" pad="~D19"/>
+<connect gate="U1" pin="(CMPRF1/TRIG1/SCCCLK)D17" pad="D17"/>
+<connect gate="U1" pin="(I2SWCLK/CMPOUT)~D23" pad="~D23"/>
+<connect gate="U1" pin="(MOSI0/CLKOUT)~D7" pad="D7"/>
+<connect gate="U1" pin="(MOSI1/TX1/PDMCLK)D10" pad="D10"/>
+<connect gate="U1" pin="(MOSI2/I2SWCLK)~D28" pad="~D28"/>
+<connect gate="U1" pin="(MOSI3/RX1)D38" pad="D38"/>
+<connect gate="U1" pin="(MOSI4)~D44" pad="~D44"/>
+<connect gate="U1" pin="(PDMCLK/SWO)~D22" pad="~D22"/>
+<connect gate="U1" pin="(RX1/SLINT)~D4" pad="~D4"/>
+<connect gate="U1" pin="(RX1/TRIG1/PDMDATA)D36" pad="D36"/>
+<connect gate="U1" pin="(SCCRST)~D26" pad="~D26"/>
+<connect gate="U1" pin="(SCL0/SCK0)~D5" pad="~D5"/>
+<connect gate="U1" pin="(SCL1/SCK1/TX1/SCCLK)D8" pad="D8"/>
+<connect gate="U1" pin="(SCL2/SCK2)~D27" pad="~D27"/>
+<connect gate="U1" pin="(SCL3/SCK3/TX1)~D42" pad="~D42"/>
+<connect gate="U1" pin="(SCL4/SCK4/TX1)~D39" pad="~D39"/>
+<connect gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6" pad="~D6"/>
+<connect gate="U1" pin="(SDA1/MISO1/RX1/SCCIO)D9" pad="D9"/>
+<connect gate="U1" pin="(SDA2/MISO2/RX1)~D25" pad="~D25"/>
+<connect gate="U1" pin="(SDA3/MISO3/RX1)~D43" pad="~D43"/>
+<connect gate="U1" pin="(SDA4/MISO4/RX1)D40" pad="D40"/>
+<connect gate="U1" pin="(SLMISO)D2" pad="D2"/>
+<connect gate="U1" pin="(SLMOSI/SLSDA)D1" pad="D1"/>
+<connect gate="U1" pin="(SLNCE/I2SWCLK)D3" pad="D3"/>
+<connect gate="U1" pin="(SLSCK/SLSCL/CLKOUT)D0" pad="D0"/>
+<connect gate="U1" pin="(SWO/I2SDAT/PDMDATA)~D45" pad="~D45"/>
+<connect gate="U1" pin="(TX1/32KHZ/SWO)~D24" pad="~D24"/>
+<connect gate="U1" pin="(TX1/PDMCLK/SCCIO)~D37" pad="~D37"/>
+<connect gate="U1" pin="AD16(TRIG0/SCCRST)" pad="AD16"/>
+<connect gate="U1" pin="AD34(CMPRF2/PDMDATA)" pad="AD34"/>
+<connect gate="U1" pin="D20(SWDCK/TX1)" pad="SWDCK"/>
+<connect gate="U1" pin="D21(SWDIO/RX1/SCCRST)" pad="SWDIO"/>
+<connect gate="U1" pin="GND*6" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6"/>
+<connect gate="U1" pin="VDD*2" pad="VDD@1 VDD@2"/>
+<connect gate="U1" pin="XI" pad="XI"/>
+<connect gate="U1" pin="XO" pad="XO"/>
+<connect gate="U1" pin="~AD11(PDMDATA)" pad="~AD11"/>
+<connect gate="U1" pin="~AD12(PDMCLK/TX1)" pad="~AD12"/>
+<connect gate="U1" pin="~AD13(I2SBCLK/RX1)" pad="~AD13"/>
+<connect gate="U1" pin="~AD29(PDMDATA)" pad="~AD29"/>
+<connect gate="U1" pin="~AD31(SCCCLK)" pad="~AD31"/>
+<connect gate="U1" pin="~AD32(SCCIO)" pad="~AD32"/>
+<connect gate="U1" pin="~AD33(SWO/32KHZ)" pad="~AD33"/>
+<connect gate="U1" pin="~AD35(TX1/I2SDAT/PDMCLK)" pad="~AD35"/>
+<connect gate="U1" pin="~BOOT(MOSI5/RX1/32KHZ)" pad="BOOT"/>
+<connect gate="U1" pin="~D48(TX0/SCL5/SCK5)" pad="TX0"/>
+<connect gate="U1" pin="~D49(RX0/SDA5/MISO5)" pad="RX0"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -28009,59 +28009,59 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 </device>
 <device name="SMD" package="ARTEMIS_FP">
 <connects>
-<connect gate="G$1" pin="!RST" pad="~RST"/>
-<connect gate="G$1" pin="(ADCD1N)D15" pad="D15"/>
-<connect gate="G$1" pin="(ADCD1P)D14" pad="D14"/>
-<connect gate="G$1" pin="(BLEIF_IRA/SWO)D41" pad="D41"/>
-<connect gate="G$1" pin="(CMPIN1)~D18" pad="~D18"/>
-<connect gate="G$1" pin="(CMPOUT)~D23" pad="~D23"/>
-<connect gate="G$1" pin="(CMPRF0)~D19" pad="~D19"/>
-<connect gate="G$1" pin="(CMPRF1)D17" pad="D17"/>
-<connect gate="G$1" pin="(CTS1/SCRST)~D26" pad="~D26"/>
-<connect gate="G$1" pin="(MOSI0/CLKOUT)D7" pad="D7"/>
-<connect gate="G$1" pin="(MOSI1/TX1/PDMCLK)D10" pad="D10"/>
-<connect gate="G$1" pin="(MOSI2/I2SWCLK)~D28" pad="~D28"/>
-<connect gate="G$1" pin="(MOSI3/RX1)D38" pad="D38"/>
-<connect gate="G$1" pin="(MOSI4)~D44" pad="~D44"/>
-<connect gate="G$1" pin="(PDMCLK)~D22" pad="~D22"/>
-<connect gate="G$1" pin="(PDMCLK/SCCIO)~D37" pad="~D37"/>
-<connect gate="G$1" pin="(RX1)~D4" pad="~D4"/>
-<connect gate="G$1" pin="(RX1/PDMDATA)D36" pad="D36"/>
-<connect gate="G$1" pin="(SCL0/SCK0)~D5" pad="~D5"/>
-<connect gate="G$1" pin="(SCL1/SCK1/TX1/SCCLK)D8" pad="D8"/>
-<connect gate="G$1" pin="(SCL2/SCK2)~D27" pad="~D27"/>
-<connect gate="G$1" pin="(SCL3/SCK3/TX1)~D42" pad="~D42"/>
-<connect gate="G$1" pin="(SCL4/SCK4/TX1)~D39" pad="~D39"/>
-<connect gate="G$1" pin="(SDA0/MISO0/I2SDAT)~D6" pad="~D6"/>
-<connect gate="G$1" pin="(SDA1/MISO1/RX1/SCCIO)D9" pad="D9"/>
-<connect gate="G$1" pin="(SDA2/MISO2/RX1)~D25" pad="~D25"/>
-<connect gate="G$1" pin="(SDA3/MISO3/RX1)~D43" pad="~D43"/>
-<connect gate="G$1" pin="(SDA4/MISO4/RX1)D40" pad="D40"/>
-<connect gate="G$1" pin="(SLMISO)D2" pad="D2"/>
-<connect gate="G$1" pin="(SLMOSI/SLSDA)D1" pad="D1"/>
-<connect gate="G$1" pin="(SLNCE)D3" pad="D3"/>
-<connect gate="G$1" pin="(SLSCK/SLSCL/CLKOUT)D0" pad="D0"/>
-<connect gate="G$1" pin="(SWO)~D45" pad="~D45"/>
-<connect gate="G$1" pin="(TX1/32KHZ)~D24" pad="~D24"/>
-<connect gate="G$1" pin="AD16(CMPIN0)" pad="AD16"/>
-<connect gate="G$1" pin="AD34(CMPRF2)" pad="AD34"/>
-<connect gate="G$1" pin="BOOT(P/MOSI5/RX1/32KHZ)" pad="BOOT"/>
-<connect gate="G$1" pin="GND*6" pad="GND@1 GND@22 GND@38 GND@39 GND@47 GND@59"/>
-<connect gate="G$1" pin="RX0(P/SDA5/MISO5)" pad="RXI-0"/>
-<connect gate="G$1" pin="SWDCK" pad="SWDCK"/>
-<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
-<connect gate="G$1" pin="TX0(P/SCL5/SCK5)" pad="TXO-0"/>
-<connect gate="G$1" pin="VDD*2" pad="VDD@36 VDD@37"/>
-<connect gate="G$1" pin="XI" pad="XI"/>
-<connect gate="G$1" pin="XO" pad="XO"/>
-<connect gate="G$1" pin="~AD11" pad="~AD11"/>
-<connect gate="G$1" pin="~AD12" pad="~AD12"/>
-<connect gate="G$1" pin="~AD13(I2SCLK)" pad="~AD13"/>
-<connect gate="G$1" pin="~AD29(PDMDATA)" pad="~AD29"/>
-<connect gate="G$1" pin="~AD31(RTS1/SCCLK)" pad="~AD31"/>
-<connect gate="G$1" pin="~AD32(SCIO)" pad="~AD32"/>
-<connect gate="G$1" pin="~AD33(SWO)" pad="~AD33/SWO"/>
-<connect gate="G$1" pin="~AD35(I2SDAT)" pad="~AD35"/>
+<connect gate="U1" pin="!RST" pad="~RST"/>
+<connect gate="U1" pin="(ADCD1N/RX1/PDMDATA)D15" pad="D15"/>
+<connect gate="U1" pin="(ADCD1P/TX1/PDMCLK)D14" pad="D14"/>
+<connect gate="U1" pin="(BLEIF_IRQ/SWO/I2SWCLK)D41" pad="D41"/>
+<connect gate="U1" pin="(CMPIN1/SCCIO)~D18" pad="~D18"/>
+<connect gate="U1" pin="(CMPRF0/SCCCLK/I2SBCLK)~D19" pad="~D19"/>
+<connect gate="U1" pin="(CMPRF1/TRIG1/SCCCLK)D17" pad="D17"/>
+<connect gate="U1" pin="(I2SWCLK/CMPOUT)~D23" pad="~D23"/>
+<connect gate="U1" pin="(MOSI0/CLKOUT)~D7" pad="D7"/>
+<connect gate="U1" pin="(MOSI1/TX1/PDMCLK)D10" pad="D10"/>
+<connect gate="U1" pin="(MOSI2/I2SWCLK)~D28" pad="~D28"/>
+<connect gate="U1" pin="(MOSI3/RX1)D38" pad="D38"/>
+<connect gate="U1" pin="(MOSI4)~D44" pad="~D44"/>
+<connect gate="U1" pin="(PDMCLK/SWO)~D22" pad="~D22"/>
+<connect gate="U1" pin="(RX1/SLINT)~D4" pad="~D4"/>
+<connect gate="U1" pin="(RX1/TRIG1/PDMDATA)D36" pad="D36"/>
+<connect gate="U1" pin="(SCCRST)~D26" pad="~D26"/>
+<connect gate="U1" pin="(SCL0/SCK0)~D5" pad="~D5"/>
+<connect gate="U1" pin="(SCL1/SCK1/TX1/SCCLK)D8" pad="D8"/>
+<connect gate="U1" pin="(SCL2/SCK2)~D27" pad="~D27"/>
+<connect gate="U1" pin="(SCL3/SCK3/TX1)~D42" pad="~D42"/>
+<connect gate="U1" pin="(SCL4/SCK4/TX1)~D39" pad="~D39"/>
+<connect gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6" pad="~D6"/>
+<connect gate="U1" pin="(SDA1/MISO1/RX1/SCCIO)D9" pad="D9"/>
+<connect gate="U1" pin="(SDA2/MISO2/RX1)~D25" pad="~D25"/>
+<connect gate="U1" pin="(SDA3/MISO3/RX1)~D43" pad="~D43"/>
+<connect gate="U1" pin="(SDA4/MISO4/RX1)D40" pad="D40"/>
+<connect gate="U1" pin="(SLMISO)D2" pad="D2"/>
+<connect gate="U1" pin="(SLMOSI/SLSDA)D1" pad="D1"/>
+<connect gate="U1" pin="(SLNCE/I2SWCLK)D3" pad="D3"/>
+<connect gate="U1" pin="(SLSCK/SLSCL/CLKOUT)D0" pad="D0"/>
+<connect gate="U1" pin="(SWO/I2SDAT/PDMDATA)~D45" pad="~D45"/>
+<connect gate="U1" pin="(TX1/32KHZ/SWO)~D24" pad="~D24"/>
+<connect gate="U1" pin="(TX1/PDMCLK/SCCIO)~D37" pad="~D37"/>
+<connect gate="U1" pin="AD16(TRIG0/SCCRST)" pad="AD16"/>
+<connect gate="U1" pin="AD34(CMPRF2/PDMDATA)" pad="AD34"/>
+<connect gate="U1" pin="D20(SWDCK/TX1)" pad="SWDCK"/>
+<connect gate="U1" pin="D21(SWDIO/RX1/SCCRST)" pad="SWDIO"/>
+<connect gate="U1" pin="GND*6" pad="GND@1 GND@22 GND@38 GND@39 GND@47 GND@59"/>
+<connect gate="U1" pin="VDD*2" pad="VDD@36 VDD@37"/>
+<connect gate="U1" pin="XI" pad="XI"/>
+<connect gate="U1" pin="XO" pad="XO"/>
+<connect gate="U1" pin="~AD11(PDMDATA)" pad="~AD11"/>
+<connect gate="U1" pin="~AD12(PDMCLK/TX1)" pad="~AD12"/>
+<connect gate="U1" pin="~AD13(I2SBCLK/RX1)" pad="~AD13"/>
+<connect gate="U1" pin="~AD29(PDMDATA)" pad="~AD29"/>
+<connect gate="U1" pin="~AD31(SCCCLK)" pad="~AD31"/>
+<connect gate="U1" pin="~AD32(SCCIO)" pad="~AD32"/>
+<connect gate="U1" pin="~AD33(SWO/32KHZ)" pad="~AD33/SWO"/>
+<connect gate="U1" pin="~AD35(TX1/I2SDAT/PDMCLK)" pad="~AD35"/>
+<connect gate="U1" pin="~BOOT(MOSI5/RX1/32KHZ)" pad="BOOT"/>
+<connect gate="U1" pin="~D48(TX0/SCL5/SCK5)" pad="TXO-0"/>
+<connect gate="U1" pin="~D49(RX0/SDA5/MISO5)" pad="RXI-0"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -30058,7 +30058,6 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="GND34" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="E1" library="SparkFun-Sensors" deviceset="SPH0641LM4H-1_MICROPHONE" device="" value="SPH0641LM4H-1"/>
-<part name="U4" library="Testing" deviceset="ARTEMIS_MODULE" device="SMD"/>
 <part name="TP8" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value=""/>
 <part name="TP9" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value=""/>
 <part name="TP11" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value=""/>
@@ -30067,6 +30066,7 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <part name="TP14" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value=""/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="JP16" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value=""/>
+<part name="U4" library="Testing" deviceset="ARTEMIS_MODULE" device="SMD"/>
 </parts>
 <sheets>
 <sheet>
@@ -30388,10 +30388,6 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <instance part="GND42" gate="1" x="30.48" y="76.2" smashed="yes">
 <attribute name="VALUE" x="30.48" y="75.946" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U4" gate="G$1" x="347.98" y="127" smashed="yes">
-<attribute name="NAME" x="317.5" y="168.148" size="1.778" layer="95"/>
-<attribute name="VALUE" x="317.5" y="78.74" size="1.778" layer="96"/>
-</instance>
 <instance part="TP8" gate="G$1" x="431.8" y="88.9" smashed="yes">
 <attribute name="NAME" x="436.118" y="87.884" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="429.26" y="86.36" size="1.778" layer="96" font="vector"/>
@@ -30423,6 +30419,10 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <attribute name="NAME" x="220.98" y="96.52" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="226.06" y="96.52" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
+<instance part="U4" gate="U1" x="347.98" y="127" smashed="yes">
+<attribute name="NAME" x="317.5" y="168.148" size="1.778" layer="95"/>
+<attribute name="VALUE" x="317.5" y="78.74" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -30447,7 +30447,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="314.96" y1="144.78" x2="312.42" y2="144.78" width="0.1524" layer="91"/>
 <label x="312.42" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="RX0(P/SDA5/MISO5)"/>
+<pinref part="U4" gate="U1" pin="~D49(RX0/SDA5/MISO5)"/>
 </segment>
 </net>
 <net name="TXO-0" class="0">
@@ -30472,10 +30472,10 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="314.96" y1="147.32" x2="312.42" y2="147.32" width="0.1524" layer="91"/>
 <label x="312.42" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="TX0(P/SCL5/SCK5)"/>
+<pinref part="U4" gate="U1" pin="~D48(TX0/SCL5/SCK5)"/>
 </segment>
 </net>
-<net name="D7/MOSI" class="0">
+<net name="~D7/MOSI" class="0">
 <segment>
 <wire x1="226.06" y1="121.92" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="7"/>
@@ -30484,7 +30484,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="383.54" y1="147.32" x2="386.08" y2="147.32" width="0.1524" layer="91"/>
 <label x="386.08" y="147.32" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="(MOSI0/CLKOUT)D7"/>
+<pinref part="U4" gate="U1" pin="(MOSI0/CLKOUT)~D7"/>
 </segment>
 </net>
 <net name="~D6/MISO" class="0">
@@ -30496,7 +30496,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="383.54" y1="149.86" x2="386.08" y2="149.86" width="0.1524" layer="91"/>
 <label x="386.08" y="149.86" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="(SDA0/MISO0/I2SDAT)~D6"/>
+<pinref part="U4" gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6"/>
 </segment>
 </net>
 <net name="~D5/SCK" class="0">
@@ -30512,7 +30512,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="383.54" y1="152.4" x2="386.08" y2="152.4" width="0.1524" layer="91"/>
 <label x="386.08" y="152.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="(SCL0/SCK0)~D5"/>
+<pinref part="U4" gate="U1" pin="(SCL0/SCK0)~D5"/>
 </segment>
 </net>
 <net name="5V" class="1">
@@ -30618,7 +30618,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <wire x1="312.42" y1="83.82" x2="312.42" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="83.82" x2="314.96" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="U4" gate="G$1" pin="GND*6"/>
+<pinref part="U4" gate="U1" pin="GND*6"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -30834,7 +30834,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="314.96" y1="160.02" x2="312.42" y2="160.02" width="0.1524" layer="91"/>
 <label x="312.42" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="!RST"/>
+<pinref part="U4" gate="U1" pin="!RST"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="167.64" x2="177.8" y2="167.64" width="0.1524" layer="91"/>
@@ -30876,7 +30876,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="383.54" y1="116.84" x2="386.08" y2="116.84" width="0.1524" layer="91"/>
 <label x="386.08" y="116.84" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="(SDA2/MISO2/RX1)~D25"/>
+<pinref part="U4" gate="U1" pin="(SDA2/MISO2/RX1)~D25"/>
 </segment>
 </net>
 <net name="~D24/TXO-1" class="0">
@@ -30888,7 +30888,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="383.54" y1="119.38" x2="386.08" y2="119.38" width="0.1524" layer="91"/>
 <label x="386.08" y="119.38" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="(TX1/32KHZ)~D24"/>
+<pinref part="U4" gate="U1" pin="(TX1/32KHZ/SWO)~D24"/>
 </segment>
 </net>
 <net name="D40/SDA" class="0">
@@ -30900,7 +30900,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="383.54" y1="96.52" x2="386.08" y2="96.52" width="0.1524" layer="91"/>
 <label x="386.08" y="96.52" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="(SDA4/MISO4/RX1)D40"/>
+<pinref part="U4" gate="U1" pin="(SDA4/MISO4/RX1)D40"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="3"/>
@@ -30917,7 +30917,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="383.54" y1="99.06" x2="386.08" y2="99.06" width="0.1524" layer="91"/>
 <label x="386.08" y="99.06" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="(SCL4/SCK4/TX1)~D39"/>
+<pinref part="U4" gate="U1" pin="(SCL4/SCK4/TX1)~D39"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="4"/>
@@ -30929,7 +30929,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="314.96" y1="101.6" x2="312.42" y2="101.6" width="0.1524" layer="91"/>
 <label x="312.42" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="~AD33(SWO)"/>
+<pinref part="U4" gate="U1" pin="~AD33(SWO/32KHZ)"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="205.74" x2="162.56" y2="205.74" width="0.1524" layer="91"/>
@@ -30946,7 +30946,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="314.96" y1="137.16" x2="312.42" y2="137.16" width="0.1524" layer="91"/>
 <label x="312.42" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="SWDIO"/>
+<pinref part="U4" gate="U1" pin="D21(SWDIO/RX1/SCCRST)"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="210.82" x2="157.48" y2="210.82" width="0.1524" layer="91"/>
@@ -30963,7 +30963,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="314.96" y1="134.62" x2="312.42" y2="134.62" width="0.1524" layer="91"/>
 <label x="312.42" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="SWDCK"/>
+<pinref part="U4" gate="U1" pin="D20(SWDCK/TX1)"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="208.28" x2="154.94" y2="208.28" width="0.1524" layer="91"/>
@@ -30980,14 +30980,14 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="383.54" y1="106.68" x2="386.08" y2="106.68" width="0.1524" layer="91"/>
 <label x="386.08" y="106.68" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="(RX1/PDMDATA)D36"/>
+<pinref part="U4" gate="U1" pin="(RX1/TRIG1/PDMDATA)D36"/>
 </segment>
 </net>
 <net name="PDMCLK" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(PDMCLK/SCCIO)~D37"/>
 <wire x1="383.54" y1="104.14" x2="386.08" y2="104.14" width="0.1524" layer="91"/>
 <label x="386.08" y="104.14" size="1.27" layer="95" xref="yes"/>
+<pinref part="U4" gate="U1" pin="(TX1/PDMCLK/SCCIO)~D37"/>
 </segment>
 </net>
 <net name="BOOT" class="0">
@@ -31003,7 +31003,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="314.96" y1="154.94" x2="312.42" y2="154.94" width="0.1524" layer="91"/>
 <label x="312.42" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="BOOT(P/MOSI5/RX1/32KHZ)"/>
+<pinref part="U4" gate="U1" pin="~BOOT(MOSI5/RX1/32KHZ)"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -31037,7 +31037,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <wire x1="314.96" y1="165.1" x2="312.42" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="165.1" x2="312.42" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="VDD" pin="VDD"/>
-<pinref part="U4" gate="G$1" pin="VDD*2"/>
+<pinref part="U4" gate="U1" pin="VDD*2"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="165.1" x2="180.34" y2="165.1" width="0.1524" layer="91"/>
@@ -31066,7 +31066,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <wire x1="294.64" y1="121.92" x2="292.1" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="121.92" x2="297.18" y2="121.92" width="0.1524" layer="91"/>
 <junction x="294.64" y="121.92"/>
-<pinref part="U4" gate="G$1" pin="XO"/>
+<pinref part="U4" gate="U1" pin="XO"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -31076,14 +31076,14 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="294.64" y1="129.54" x2="292.1" y2="129.54" width="0.1524" layer="91"/>
 <junction x="294.64" y="129.54"/>
-<pinref part="U4" gate="G$1" pin="XI"/>
+<pinref part="U4" gate="U1" pin="XI"/>
 </segment>
 </net>
 <net name="~AD31" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="~AD31(RTS1/SCCLK)"/>
 <wire x1="314.96" y1="106.68" x2="312.42" y2="106.68" width="0.1524" layer="91"/>
 <label x="312.42" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U4" gate="U1" pin="~AD31(SCCCLK)"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="157.48" x2="215.9" y2="157.48" width="0.1524" layer="91"/>
@@ -31098,16 +31098,16 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="AD16(CMPIN0)"/>
 <wire x1="314.96" y1="111.76" x2="312.42" y2="111.76" width="0.1524" layer="91"/>
 <label x="312.42" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U4" gate="U1" pin="AD16(TRIG0/SCCRST)"/>
 </segment>
 </net>
 <net name="~AD29" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="~AD29(PDMDATA)"/>
 <wire x1="314.96" y1="109.22" x2="312.42" y2="109.22" width="0.1524" layer="91"/>
 <label x="312.42" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U4" gate="U1" pin="~AD29(PDMDATA)"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="170.18" x2="215.9" y2="170.18" width="0.1524" layer="91"/>
@@ -31117,9 +31117,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="~AD11" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="~AD11"/>
 <wire x1="314.96" y1="119.38" x2="312.42" y2="119.38" width="0.1524" layer="91"/>
 <label x="312.42" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U4" gate="U1" pin="~AD11(PDMDATA)"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="167.64" x2="215.9" y2="167.64" width="0.1524" layer="91"/>
@@ -31129,9 +31129,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="AD34" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="AD34(CMPRF2)"/>
 <wire x1="314.96" y1="99.06" x2="312.42" y2="99.06" width="0.1524" layer="91"/>
 <label x="312.42" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U4" gate="U1" pin="AD34(CMPRF2/PDMDATA)"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="165.1" x2="215.9" y2="165.1" width="0.1524" layer="91"/>
@@ -31141,9 +31141,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="~AD35" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="~AD35(I2SDAT)"/>
 <wire x1="314.96" y1="96.52" x2="312.42" y2="96.52" width="0.1524" layer="91"/>
 <label x="312.42" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U4" gate="U1" pin="~AD35(TX1/I2SDAT/PDMCLK)"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="147.32" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
@@ -31158,9 +31158,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="(RX1)~D4"/>
 <wire x1="383.54" y1="154.94" x2="386.08" y2="154.94" width="0.1524" layer="91"/>
 <label x="386.08" y="154.94" size="1.27" layer="95" xref="yes"/>
+<pinref part="U4" gate="U1" pin="(RX1/SLINT)~D4"/>
 </segment>
 </net>
 <net name="~D22" class="0">
@@ -31170,9 +31170,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="(PDMCLK)~D22"/>
 <wire x1="383.54" y1="124.46" x2="386.08" y2="124.46" width="0.1524" layer="91"/>
 <label x="386.08" y="124.46" size="1.27" layer="95" xref="yes"/>
+<pinref part="U4" gate="U1" pin="(PDMCLK/SWO)~D22"/>
 </segment>
 </net>
 <net name="~D23" class="0">
@@ -31182,16 +31182,16 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="(CMPOUT)~D23"/>
 <wire x1="383.54" y1="121.92" x2="386.08" y2="121.92" width="0.1524" layer="91"/>
 <label x="386.08" y="121.92" size="1.27" layer="95" xref="yes"/>
+<pinref part="U4" gate="U1" pin="(I2SWCLK/CMPOUT)~D23"/>
 </segment>
 </net>
 <net name="~D27" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(SCL2/SCK2)~D27"/>
 <wire x1="383.54" y1="111.76" x2="386.08" y2="111.76" width="0.1524" layer="91"/>
 <label x="386.08" y="111.76" size="1.27" layer="95" xref="yes"/>
+<pinref part="U4" gate="U1" pin="(SCL2/SCK2)~D27"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="137.16" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
@@ -31206,16 +31206,16 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="(MOSI2/I2SWCLK)~D28"/>
 <wire x1="383.54" y1="109.22" x2="386.08" y2="109.22" width="0.1524" layer="91"/>
 <label x="386.08" y="109.22" size="1.27" layer="95" xref="yes"/>
+<pinref part="U4" gate="U1" pin="(MOSI2/I2SWCLK)~D28"/>
 </segment>
 </net>
 <net name="~AD32" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="~AD32(SCIO)"/>
 <wire x1="314.96" y1="104.14" x2="312.42" y2="104.14" width="0.1524" layer="91"/>
 <label x="312.42" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U4" gate="U1" pin="~AD32(SCCIO)"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="129.54" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
@@ -31230,9 +31230,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="~AD12"/>
 <wire x1="314.96" y1="116.84" x2="312.42" y2="116.84" width="0.1524" layer="91"/>
 <label x="312.42" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U4" gate="U1" pin="~AD12(PDMCLK/TX1)"/>
 </segment>
 </net>
 <net name="~AD13" class="0">
@@ -31242,16 +31242,16 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="~AD13(I2SCLK)"/>
 <wire x1="314.96" y1="114.3" x2="312.42" y2="114.3" width="0.1524" layer="91"/>
 <label x="312.42" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U4" gate="U1" pin="~AD13(I2SBCLK/RX1)"/>
 </segment>
 </net>
 <net name="~D42" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(SCL3/SCK3/TX1)~D42"/>
 <wire x1="383.54" y1="91.44" x2="386.08" y2="91.44" width="0.1524" layer="91"/>
 <label x="386.08" y="91.44" size="1.27" layer="95" xref="yes"/>
+<pinref part="U4" gate="U1" pin="(SCL3/SCK3/TX1)~D42"/>
 </segment>
 <segment>
 <pinref part="TP9" gate="G$1" pin="1"/>
@@ -31261,9 +31261,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="~D43" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(SDA3/MISO3/RX1)~D43"/>
 <wire x1="383.54" y1="88.9" x2="386.08" y2="88.9" width="0.1524" layer="91"/>
 <label x="386.08" y="88.9" size="1.27" layer="95" xref="yes"/>
+<pinref part="U4" gate="U1" pin="(SDA3/MISO3/RX1)~D43"/>
 </segment>
 <segment>
 <pinref part="TP8" gate="G$1" pin="1"/>
@@ -31273,9 +31273,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="D8" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(SCL1/SCK1/TX1/SCCLK)D8"/>
 <wire x1="383.54" y1="144.78" x2="386.08" y2="144.78" width="0.1524" layer="91"/>
 <label x="386.08" y="144.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="U4" gate="U1" pin="(SCL1/SCK1/TX1/SCCLK)D8"/>
 </segment>
 <segment>
 <pinref part="TP12" gate="G$1" pin="1"/>
@@ -31285,9 +31285,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="D9" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(SDA1/MISO1/RX1/SCCIO)D9"/>
 <wire x1="383.54" y1="142.24" x2="386.08" y2="142.24" width="0.1524" layer="91"/>
 <label x="386.08" y="142.24" size="1.27" layer="95" xref="yes"/>
+<pinref part="U4" gate="U1" pin="(SDA1/MISO1/RX1/SCCIO)D9"/>
 </segment>
 <segment>
 <pinref part="TP13" gate="G$1" pin="1"/>
@@ -31299,7 +31299,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <segment>
 <wire x1="383.54" y1="139.7" x2="386.08" y2="139.7" width="0.1524" layer="91"/>
 <label x="386.08" y="139.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="(MOSI1/TX1/PDMCLK)D10"/>
+<pinref part="U4" gate="U1" pin="(MOSI1/TX1/PDMCLK)D10"/>
 </segment>
 <segment>
 <pinref part="TP14" gate="G$1" pin="1"/>
@@ -31309,9 +31309,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="D38" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(MOSI3/RX1)D38"/>
 <wire x1="383.54" y1="101.6" x2="386.08" y2="101.6" width="0.1524" layer="91"/>
 <label x="386.08" y="101.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="U4" gate="U1" pin="(MOSI3/RX1)D38"/>
 </segment>
 <segment>
 <pinref part="TP11" gate="G$1" pin="1"/>
