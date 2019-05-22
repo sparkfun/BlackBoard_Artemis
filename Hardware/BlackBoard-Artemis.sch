@@ -30066,13 +30066,13 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <part name="TP14" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value=""/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="JP16" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value=""/>
-<part name="U4" library="Testing" deviceset="ARTEMIS_MODULE" device="SMD"/>
+<part name="U1" library="Testing" deviceset="ARTEMIS_MODULE" device="SMD"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <wire x1="0" y1="68.58" x2="147.32" y2="68.58" width="0.254" layer="97" style="longdash"/>
-<text x="136.906" y="236.982" size="2.54" layer="94" font="vector" ratio="15" align="center">Artemis</text>
+<text x="281.686" y="69.342" size="2.54" layer="94" font="vector" ratio="15" align="center">Artemis</text>
 <text x="66.294" y="63.246" size="2.54" layer="94" font="vector" ratio="15" align="center">USB-to-Serial Converter</text>
 <text x="170.434" y="11.176" size="2.54" layer="94" font="vector">N. Seidle</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">X02</text>
@@ -30086,6 +30086,8 @@ Close only if you know what you're doing.</text>
 10C rise in temperature
 30.8 mil width
 https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
+<text x="180.34" y="99.06" size="1.27" layer="97" ratio="15" align="center">Optional Bus Masters
+broken out to SMD pads</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="210.82" y="99.06" smashed="yes" rot="R270">
@@ -30144,8 +30146,8 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <attribute name="VALUE" x="198.12" y="149.86" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="196.85" y="160.782" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="JP1" gate="G$1" x="111.76" y="236.22" smashed="yes"/>
-<instance part="JP7" gate="G$1" x="144.526" y="247.142" smashed="yes"/>
+<instance part="JP1" gate="G$1" x="256.54" y="68.58" smashed="yes"/>
+<instance part="JP7" gate="G$1" x="289.306" y="79.502" smashed="yes"/>
 <instance part="GND10" gate="1" x="68.58" y="10.16" smashed="yes">
 <attribute name="VALUE" x="66.04" y="7.62" size="1.778" layer="96"/>
 </instance>
@@ -30278,8 +30280,8 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <instance part="F2" gate="F1" x="53.34" y="33.02" smashed="yes">
 <attribute name="NAME" x="52.578" y="34.798" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND6" gate="1" x="312.42" y="78.74" smashed="yes">
-<attribute name="VALUE" x="309.88" y="76.2" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="71.12" y="81.28" smashed="yes">
+<attribute name="VALUE" x="68.58" y="78.74" size="1.778" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="127" y="200.66" smashed="yes">
 <attribute name="VALUE" x="127" y="200.406" size="1.778" layer="96" align="top-center"/>
@@ -30346,8 +30348,8 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <instance part="SUPPLY12" gate="VDD" x="27.94" y="172.72" smashed="yes">
 <attribute name="VALUE" x="27.94" y="175.514" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY13" gate="VDD" x="312.42" y="167.64" smashed="yes">
-<attribute name="VALUE" x="312.42" y="170.434" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY13" gate="VDD" x="71.12" y="170.18" smashed="yes">
+<attribute name="VALUE" x="71.12" y="172.974" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY14" gate="VDD" x="180.34" y="175.26" smashed="yes">
 <attribute name="VALUE" x="180.34" y="178.054" size="1.778" layer="96" align="bottom-center"/>
@@ -30362,20 +30364,20 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <instance part="GND27" gate="1" x="12.7" y="119.38" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="12.7" y="119.126" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="Y1" gate="G$1" x="294.64" y="127" smashed="yes" rot="R270">
-<attribute name="NAME" x="294.64" y="130.556" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="297.688" y="121.412" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="Y1" gate="G$1" x="53.34" y="129.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="53.34" y="133.096" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="56.388" y="123.952" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="C11" gate="G$1" x="289.56" y="121.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="282.956" y="122.174" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="285.496" y="119.38" size="1.778" layer="96" font="vector" rot="MR180"/>
+<instance part="C11" gate="G$1" x="48.26" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.656" y="124.714" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="44.196" y="121.92" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
-<instance part="C13" gate="G$1" x="289.56" y="129.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="282.702" y="129.794" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="285.242" y="127" size="1.778" layer="96" font="vector" rot="MR180"/>
+<instance part="C13" gate="G$1" x="48.26" y="132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.402" y="132.334" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="43.942" y="129.54" size="1.778" layer="96" font="vector" rot="MR180"/>
 </instance>
-<instance part="GND35" gate="1" x="281.94" y="116.84" smashed="yes">
-<attribute name="VALUE" x="281.94" y="116.586" size="1.778" layer="96" align="top-center"/>
+<instance part="GND35" gate="1" x="40.64" y="119.38" smashed="yes">
+<attribute name="VALUE" x="40.64" y="119.126" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="J7" gate="G$1" x="139.7" y="17.78" smashed="yes" rot="R180">
 <attribute name="VALUE" x="142.24" y="22.606" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -30388,29 +30390,29 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <instance part="GND42" gate="1" x="30.48" y="76.2" smashed="yes">
 <attribute name="VALUE" x="30.48" y="75.946" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="TP8" gate="G$1" x="431.8" y="88.9" smashed="yes">
-<attribute name="NAME" x="436.118" y="87.884" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="429.26" y="86.36" size="1.778" layer="96" font="vector"/>
+<instance part="TP8" gate="G$1" x="180.34" y="78.74" smashed="yes">
+<attribute name="NAME" x="184.658" y="77.724" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="177.8" y="76.2" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TP9" gate="G$1" x="431.8" y="91.44" smashed="yes">
-<attribute name="NAME" x="436.118" y="90.424" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="429.26" y="88.9" size="1.778" layer="96" font="vector"/>
+<instance part="TP9" gate="G$1" x="180.34" y="81.28" smashed="yes">
+<attribute name="NAME" x="184.658" y="80.264" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="177.8" y="78.74" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TP11" gate="G$1" x="431.8" y="101.6" smashed="yes">
-<attribute name="NAME" x="436.118" y="100.584" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="429.26" y="99.06" size="1.778" layer="96" font="vector"/>
+<instance part="TP11" gate="G$1" x="180.34" y="83.82" smashed="yes">
+<attribute name="NAME" x="184.658" y="82.804" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="177.8" y="81.28" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TP12" gate="G$1" x="429.26" y="144.78" smashed="yes">
-<attribute name="NAME" x="433.578" y="143.764" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="426.72" y="142.24" size="1.778" layer="96" font="vector"/>
+<instance part="TP12" gate="G$1" x="180.34" y="93.98" smashed="yes">
+<attribute name="NAME" x="184.658" y="92.964" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="177.8" y="91.44" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TP13" gate="G$1" x="429.26" y="142.24" smashed="yes">
-<attribute name="NAME" x="433.578" y="141.224" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="426.72" y="139.7" size="1.778" layer="96" font="vector"/>
+<instance part="TP13" gate="G$1" x="180.34" y="91.44" smashed="yes">
+<attribute name="NAME" x="184.658" y="90.424" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="177.8" y="88.9" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TP14" gate="G$1" x="429.26" y="139.7" smashed="yes">
-<attribute name="NAME" x="433.578" y="138.684" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="426.72" y="137.16" size="1.778" layer="96" font="vector"/>
+<instance part="TP14" gate="G$1" x="180.34" y="88.9" smashed="yes">
+<attribute name="NAME" x="184.658" y="87.884" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="177.8" y="86.36" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND31" gate="1" x="223.52" y="88.9" smashed="yes">
 <attribute name="VALUE" x="220.98" y="86.36" size="1.778" layer="96"/>
@@ -30419,9 +30421,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <attribute name="NAME" x="220.98" y="96.52" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="226.06" y="96.52" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="U4" gate="U1" x="347.98" y="127" smashed="yes">
-<attribute name="NAME" x="317.5" y="168.148" size="1.778" layer="95"/>
-<attribute name="VALUE" x="317.5" y="78.74" size="1.778" layer="96"/>
+<instance part="U1" gate="U1" x="106.68" y="129.54" smashed="yes">
+<attribute name="NAME" x="76.2" y="170.688" size="1.778" layer="95"/>
+<attribute name="VALUE" x="76.2" y="81.28" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -30445,9 +30447,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <wire x1="129.54" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="314.96" y1="144.78" x2="312.42" y2="144.78" width="0.1524" layer="91"/>
-<label x="312.42" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="~D49(RX0/SDA5/MISO5)"/>
+<wire x1="73.66" y1="147.32" x2="71.12" y2="147.32" width="0.1524" layer="91"/>
+<label x="71.12" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~D49(RX0/SDA5/MISO5)"/>
 </segment>
 </net>
 <net name="TXO-0" class="0">
@@ -30470,9 +30472,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <wire x1="127" y1="15.24" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="314.96" y1="147.32" x2="312.42" y2="147.32" width="0.1524" layer="91"/>
-<label x="312.42" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="~D48(TX0/SCL5/SCK5)"/>
+<wire x1="73.66" y1="149.86" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
+<label x="71.12" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~D48(TX0/SCL5/SCK5)"/>
 </segment>
 </net>
 <net name="~D7/MOSI" class="0">
@@ -30482,9 +30484,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="147.32" x2="386.08" y2="147.32" width="0.1524" layer="91"/>
-<label x="386.08" y="147.32" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(MOSI0/CLKOUT)~D7"/>
+<wire x1="142.24" y1="149.86" x2="144.78" y2="149.86" width="0.1524" layer="91"/>
+<label x="144.78" y="149.86" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(MOSI0/CLKOUT)~D7"/>
 </segment>
 </net>
 <net name="~D6/MISO" class="0">
@@ -30494,9 +30496,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="149.86" x2="386.08" y2="149.86" width="0.1524" layer="91"/>
-<label x="386.08" y="149.86" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6"/>
+<wire x1="142.24" y1="152.4" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
+<label x="144.78" y="152.4" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6"/>
 </segment>
 </net>
 <net name="~D5/SCK" class="0">
@@ -30510,9 +30512,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="208.28" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="152.4" x2="386.08" y2="152.4" width="0.1524" layer="91"/>
-<label x="386.08" y="152.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(SCL0/SCK0)~D5"/>
+<wire x1="142.24" y1="154.94" x2="144.78" y2="154.94" width="0.1524" layer="91"/>
+<label x="144.78" y="154.94" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SCL0/SCK0)~D5"/>
 </segment>
 </net>
 <net name="5V" class="1">
@@ -30615,10 +30617,10 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="312.42" y1="83.82" x2="312.42" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="83.82" x2="314.96" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="86.36" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="86.36" x2="73.66" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="U4" gate="U1" pin="GND*6"/>
+<pinref part="U1" gate="U1" pin="GND*6"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -30648,13 +30650,13 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="284.48" y1="129.54" x2="281.94" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="129.54" x2="281.94" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="132.08" x2="40.64" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="132.08" x2="40.64" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="1" pin="GND"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="281.94" y1="121.92" x2="281.94" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="121.92" x2="281.94" y2="121.92" width="0.1524" layer="91"/>
-<junction x="281.94" y="121.92"/>
+<wire x1="40.64" y1="124.46" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="124.46" x2="40.64" y2="124.46" width="0.1524" layer="91"/>
+<junction x="40.64" y="124.46"/>
 </segment>
 <segment>
 <pinref part="GND42" gate="1" pin="GND"/>
@@ -30832,9 +30834,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="!RESET" class="0">
 <segment>
-<wire x1="314.96" y1="160.02" x2="312.42" y2="160.02" width="0.1524" layer="91"/>
-<label x="312.42" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="!RST"/>
+<wire x1="73.66" y1="162.56" x2="71.12" y2="162.56" width="0.1524" layer="91"/>
+<label x="71.12" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="!RST"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="167.64" x2="177.8" y2="167.64" width="0.1524" layer="91"/>
@@ -30874,9 +30876,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="116.84" x2="386.08" y2="116.84" width="0.1524" layer="91"/>
-<label x="386.08" y="116.84" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(SDA2/MISO2/RX1)~D25"/>
+<wire x1="142.24" y1="119.38" x2="144.78" y2="119.38" width="0.1524" layer="91"/>
+<label x="144.78" y="119.38" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SDA2/MISO2/RX1)~D25"/>
 </segment>
 </net>
 <net name="~D24/TXO-1" class="0">
@@ -30886,9 +30888,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="119.38" x2="386.08" y2="119.38" width="0.1524" layer="91"/>
-<label x="386.08" y="119.38" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(TX1/32KHZ/SWO)~D24"/>
+<wire x1="142.24" y1="121.92" x2="144.78" y2="121.92" width="0.1524" layer="91"/>
+<label x="144.78" y="121.92" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(TX1/32KHZ/SWO)~D24"/>
 </segment>
 </net>
 <net name="D40/SDA" class="0">
@@ -30898,9 +30900,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="205.74" y="109.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="96.52" x2="386.08" y2="96.52" width="0.1524" layer="91"/>
-<label x="386.08" y="96.52" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(SDA4/MISO4/RX1)D40"/>
+<wire x1="142.24" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
+<label x="144.78" y="99.06" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SDA4/MISO4/RX1)D40"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="3"/>
@@ -30915,9 +30917,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="205.74" y="106.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="99.06" x2="386.08" y2="99.06" width="0.1524" layer="91"/>
-<label x="386.08" y="99.06" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(SCL4/SCK4/TX1)~D39"/>
+<wire x1="142.24" y1="101.6" x2="144.78" y2="101.6" width="0.1524" layer="91"/>
+<label x="144.78" y="101.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SCL4/SCK4/TX1)~D39"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="4"/>
@@ -30925,11 +30927,11 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="200.66" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="~AD3/SWO" class="0">
+<net name="~AD33/SWO" class="0">
 <segment>
-<wire x1="314.96" y1="101.6" x2="312.42" y2="101.6" width="0.1524" layer="91"/>
-<label x="312.42" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="~AD33(SWO/32KHZ)"/>
+<wire x1="73.66" y1="104.14" x2="71.12" y2="104.14" width="0.1524" layer="91"/>
+<label x="71.12" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~AD33(SWO/32KHZ)"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="205.74" x2="162.56" y2="205.74" width="0.1524" layer="91"/>
@@ -30944,9 +30946,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="SWDIO" class="0">
 <segment>
-<wire x1="314.96" y1="137.16" x2="312.42" y2="137.16" width="0.1524" layer="91"/>
-<label x="312.42" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="D21(SWDIO/RX1/SCCRST)"/>
+<wire x1="73.66" y1="139.7" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
+<label x="71.12" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="D21(SWDIO/RX1/SCCRST)"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="210.82" x2="157.48" y2="210.82" width="0.1524" layer="91"/>
@@ -30961,9 +30963,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="SWDCK" class="0">
 <segment>
-<wire x1="314.96" y1="134.62" x2="312.42" y2="134.62" width="0.1524" layer="91"/>
-<label x="312.42" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="D20(SWDCK/TX1)"/>
+<wire x1="73.66" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
+<label x="71.12" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="D20(SWDCK/TX1)"/>
 </segment>
 <segment>
 <wire x1="152.4" y1="208.28" x2="154.94" y2="208.28" width="0.1524" layer="91"/>
@@ -30978,16 +30980,16 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="PDMDATA" class="0">
 <segment>
-<wire x1="383.54" y1="106.68" x2="386.08" y2="106.68" width="0.1524" layer="91"/>
-<label x="386.08" y="106.68" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(RX1/TRIG1/PDMDATA)D36"/>
+<wire x1="142.24" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
+<label x="144.78" y="109.22" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(RX1/TRIG1/PDMDATA)D36"/>
 </segment>
 </net>
 <net name="PDMCLK" class="0">
 <segment>
-<wire x1="383.54" y1="104.14" x2="386.08" y2="104.14" width="0.1524" layer="91"/>
-<label x="386.08" y="104.14" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(TX1/PDMCLK/SCCIO)~D37"/>
+<wire x1="142.24" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
+<label x="144.78" y="106.68" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(TX1/PDMCLK/SCCIO)~D37"/>
 </segment>
 </net>
 <net name="BOOT" class="0">
@@ -31001,9 +31003,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="314.96" y1="154.94" x2="312.42" y2="154.94" width="0.1524" layer="91"/>
-<label x="312.42" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="~BOOT(MOSI5/RX1/32KHZ)"/>
+<wire x1="73.66" y1="157.48" x2="71.12" y2="157.48" width="0.1524" layer="91"/>
+<label x="71.12" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~BOOT(MOSI5/RX1/32KHZ)"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -31034,10 +31036,10 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <pinref part="SUPPLY12" gate="VDD" pin="VDD"/>
 </segment>
 <segment>
-<wire x1="314.96" y1="165.1" x2="312.42" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="165.1" x2="312.42" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="167.64" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="167.64" x2="71.12" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="VDD" pin="VDD"/>
-<pinref part="U4" gate="U1" pin="VDD*2"/>
+<pinref part="U1" gate="U1" pin="VDD*2"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="165.1" x2="180.34" y2="165.1" width="0.1524" layer="91"/>
@@ -31058,32 +31060,32 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="N$7" class="0">
 <segment>
-<wire x1="314.96" y1="127" x2="297.18" y2="127" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="127" x2="297.18" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="129.54" x2="55.88" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="129.54" x2="55.88" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="2"/>
-<wire x1="294.64" y1="124.46" x2="294.64" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="127" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="294.64" y1="121.92" x2="292.1" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="121.92" x2="297.18" y2="121.92" width="0.1524" layer="91"/>
-<junction x="294.64" y="121.92"/>
-<pinref part="U4" gate="U1" pin="XO"/>
+<wire x1="53.34" y1="124.46" x2="50.8" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="124.46" x2="55.88" y2="124.46" width="0.1524" layer="91"/>
+<junction x="53.34" y="124.46"/>
+<pinref part="U1" gate="U1" pin="XO"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="Y1" gate="G$1" pin="1"/>
-<wire x1="314.96" y1="129.54" x2="294.64" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="132.08" x2="53.34" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="294.64" y1="129.54" x2="292.1" y2="129.54" width="0.1524" layer="91"/>
-<junction x="294.64" y="129.54"/>
-<pinref part="U4" gate="U1" pin="XI"/>
+<wire x1="53.34" y1="132.08" x2="50.8" y2="132.08" width="0.1524" layer="91"/>
+<junction x="53.34" y="132.08"/>
+<pinref part="U1" gate="U1" pin="XI"/>
 </segment>
 </net>
 <net name="~AD31" class="0">
 <segment>
-<wire x1="314.96" y1="106.68" x2="312.42" y2="106.68" width="0.1524" layer="91"/>
-<label x="312.42" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="~AD31(SCCCLK)"/>
+<wire x1="73.66" y1="109.22" x2="71.12" y2="109.22" width="0.1524" layer="91"/>
+<label x="71.12" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~AD31(SCCCLK)"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="157.48" x2="215.9" y2="157.48" width="0.1524" layer="91"/>
@@ -31098,16 +31100,16 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="314.96" y1="111.76" x2="312.42" y2="111.76" width="0.1524" layer="91"/>
-<label x="312.42" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="AD16(TRIG0/SCCRST)"/>
+<wire x1="73.66" y1="114.3" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
+<label x="71.12" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="AD16(TRIG0/SCCRST)"/>
 </segment>
 </net>
 <net name="~AD29" class="0">
 <segment>
-<wire x1="314.96" y1="109.22" x2="312.42" y2="109.22" width="0.1524" layer="91"/>
-<label x="312.42" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="~AD29(PDMDATA)"/>
+<wire x1="73.66" y1="111.76" x2="71.12" y2="111.76" width="0.1524" layer="91"/>
+<label x="71.12" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~AD29(PDMDATA)"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="170.18" x2="215.9" y2="170.18" width="0.1524" layer="91"/>
@@ -31117,9 +31119,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="~AD11" class="0">
 <segment>
-<wire x1="314.96" y1="119.38" x2="312.42" y2="119.38" width="0.1524" layer="91"/>
-<label x="312.42" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="~AD11(PDMDATA)"/>
+<wire x1="73.66" y1="121.92" x2="71.12" y2="121.92" width="0.1524" layer="91"/>
+<label x="71.12" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~AD11(PDMDATA)"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="167.64" x2="215.9" y2="167.64" width="0.1524" layer="91"/>
@@ -31129,9 +31131,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="AD34" class="0">
 <segment>
-<wire x1="314.96" y1="99.06" x2="312.42" y2="99.06" width="0.1524" layer="91"/>
-<label x="312.42" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="AD34(CMPRF2/PDMDATA)"/>
+<wire x1="73.66" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
+<label x="71.12" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="AD34(CMPRF2/PDMDATA)"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="165.1" x2="215.9" y2="165.1" width="0.1524" layer="91"/>
@@ -31141,9 +31143,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="~AD35" class="0">
 <segment>
-<wire x1="314.96" y1="96.52" x2="312.42" y2="96.52" width="0.1524" layer="91"/>
-<label x="312.42" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="~AD35(TX1/I2SDAT/PDMCLK)"/>
+<wire x1="73.66" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
+<label x="71.12" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~AD35(TX1/I2SDAT/PDMCLK)"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="147.32" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
@@ -31158,9 +31160,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="154.94" x2="386.08" y2="154.94" width="0.1524" layer="91"/>
-<label x="386.08" y="154.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(RX1/SLINT)~D4"/>
+<wire x1="142.24" y1="157.48" x2="144.78" y2="157.48" width="0.1524" layer="91"/>
+<label x="144.78" y="157.48" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(RX1/SLINT)~D4"/>
 </segment>
 </net>
 <net name="~D22" class="0">
@@ -31170,9 +31172,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="124.46" x2="386.08" y2="124.46" width="0.1524" layer="91"/>
-<label x="386.08" y="124.46" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(PDMCLK/SWO)~D22"/>
+<wire x1="142.24" y1="127" x2="144.78" y2="127" width="0.1524" layer="91"/>
+<label x="144.78" y="127" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(PDMCLK/SWO)~D22"/>
 </segment>
 </net>
 <net name="~D23" class="0">
@@ -31182,16 +31184,16 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="121.92" x2="386.08" y2="121.92" width="0.1524" layer="91"/>
-<label x="386.08" y="121.92" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(I2SWCLK/CMPOUT)~D23"/>
+<wire x1="142.24" y1="124.46" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
+<label x="144.78" y="124.46" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(I2SWCLK/CMPOUT)~D23"/>
 </segment>
 </net>
 <net name="~D27" class="0">
 <segment>
-<wire x1="383.54" y1="111.76" x2="386.08" y2="111.76" width="0.1524" layer="91"/>
-<label x="386.08" y="111.76" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(SCL2/SCK2)~D27"/>
+<wire x1="142.24" y1="114.3" x2="144.78" y2="114.3" width="0.1524" layer="91"/>
+<label x="144.78" y="114.3" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SCL2/SCK2)~D27"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="137.16" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
@@ -31206,16 +31208,16 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="109.22" x2="386.08" y2="109.22" width="0.1524" layer="91"/>
-<label x="386.08" y="109.22" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(MOSI2/I2SWCLK)~D28"/>
+<wire x1="142.24" y1="111.76" x2="144.78" y2="111.76" width="0.1524" layer="91"/>
+<label x="144.78" y="111.76" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(MOSI2/I2SWCLK)~D28"/>
 </segment>
 </net>
 <net name="~AD32" class="0">
 <segment>
-<wire x1="314.96" y1="104.14" x2="312.42" y2="104.14" width="0.1524" layer="91"/>
-<label x="312.42" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="~AD32(SCCIO)"/>
+<wire x1="73.66" y1="106.68" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
+<label x="71.12" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~AD32(SCCIO)"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="129.54" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
@@ -31230,9 +31232,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="314.96" y1="116.84" x2="312.42" y2="116.84" width="0.1524" layer="91"/>
-<label x="312.42" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="~AD12(PDMCLK/TX1)"/>
+<wire x1="73.66" y1="119.38" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
+<label x="71.12" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~AD12(PDMCLK/TX1)"/>
 </segment>
 </net>
 <net name="~AD13" class="0">
@@ -31242,81 +31244,81 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <label x="215.9" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="314.96" y1="114.3" x2="312.42" y2="114.3" width="0.1524" layer="91"/>
-<label x="312.42" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="U1" pin="~AD13(I2SBCLK/RX1)"/>
+<wire x1="73.66" y1="116.84" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
+<label x="71.12" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~AD13(I2SBCLK/RX1)"/>
 </segment>
 </net>
 <net name="~D42" class="0">
 <segment>
-<wire x1="383.54" y1="91.44" x2="386.08" y2="91.44" width="0.1524" layer="91"/>
-<label x="386.08" y="91.44" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(SCL3/SCK3/TX1)~D42"/>
+<wire x1="142.24" y1="93.98" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
+<label x="144.78" y="93.98" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SCL3/SCK3/TX1)~D42"/>
 </segment>
 <segment>
 <pinref part="TP9" gate="G$1" pin="1"/>
-<wire x1="431.8" y1="91.44" x2="429.26" y2="91.44" width="0.1524" layer="91"/>
-<label x="429.26" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="180.34" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
+<label x="177.8" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="~D43" class="0">
 <segment>
-<wire x1="383.54" y1="88.9" x2="386.08" y2="88.9" width="0.1524" layer="91"/>
-<label x="386.08" y="88.9" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(SDA3/MISO3/RX1)~D43"/>
+<wire x1="142.24" y1="91.44" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
+<label x="144.78" y="91.44" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SDA3/MISO3/RX1)~D43"/>
 </segment>
 <segment>
 <pinref part="TP8" gate="G$1" pin="1"/>
-<wire x1="431.8" y1="88.9" x2="429.26" y2="88.9" width="0.1524" layer="91"/>
-<label x="429.26" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="180.34" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
+<label x="177.8" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D8" class="0">
 <segment>
-<wire x1="383.54" y1="144.78" x2="386.08" y2="144.78" width="0.1524" layer="91"/>
-<label x="386.08" y="144.78" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(SCL1/SCK1/TX1/SCCLK)D8"/>
+<wire x1="142.24" y1="147.32" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
+<label x="144.78" y="147.32" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SCL1/SCK1/TX1/SCCLK)D8"/>
 </segment>
 <segment>
 <pinref part="TP12" gate="G$1" pin="1"/>
-<wire x1="429.26" y1="144.78" x2="426.72" y2="144.78" width="0.1524" layer="91"/>
-<label x="426.72" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="180.34" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
+<label x="177.8" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D9" class="0">
 <segment>
-<wire x1="383.54" y1="142.24" x2="386.08" y2="142.24" width="0.1524" layer="91"/>
-<label x="386.08" y="142.24" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(SDA1/MISO1/RX1/SCCIO)D9"/>
+<wire x1="142.24" y1="144.78" x2="144.78" y2="144.78" width="0.1524" layer="91"/>
+<label x="144.78" y="144.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SDA1/MISO1/RX1/SCCIO)D9"/>
 </segment>
 <segment>
 <pinref part="TP13" gate="G$1" pin="1"/>
-<wire x1="429.26" y1="142.24" x2="426.72" y2="142.24" width="0.1524" layer="91"/>
-<label x="426.72" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="180.34" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
+<label x="177.8" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D10" class="0">
 <segment>
-<wire x1="383.54" y1="139.7" x2="386.08" y2="139.7" width="0.1524" layer="91"/>
-<label x="386.08" y="139.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(MOSI1/TX1/PDMCLK)D10"/>
+<wire x1="142.24" y1="142.24" x2="144.78" y2="142.24" width="0.1524" layer="91"/>
+<label x="144.78" y="142.24" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(MOSI1/TX1/PDMCLK)D10"/>
 </segment>
 <segment>
 <pinref part="TP14" gate="G$1" pin="1"/>
-<wire x1="429.26" y1="139.7" x2="426.72" y2="139.7" width="0.1524" layer="91"/>
-<label x="426.72" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="180.34" y1="88.9" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
+<label x="177.8" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D38" class="0">
 <segment>
-<wire x1="383.54" y1="101.6" x2="386.08" y2="101.6" width="0.1524" layer="91"/>
-<label x="386.08" y="101.6" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="U1" pin="(MOSI3/RX1)D38"/>
+<wire x1="142.24" y1="104.14" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
+<label x="144.78" y="104.14" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(MOSI3/RX1)D38"/>
 </segment>
 <segment>
 <pinref part="TP11" gate="G$1" pin="1"/>
-<wire x1="431.8" y1="101.6" x2="429.26" y2="101.6" width="0.1524" layer="91"/>
-<label x="429.26" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="180.34" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
+<label x="177.8" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">
