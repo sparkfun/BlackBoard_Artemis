@@ -172,7 +172,7 @@
 <wire x1="0" y1="0" x2="0" y2="53.34" width="0.2032" layer="20"/>
 <wire x1="66.04" y1="51.816" x2="66.04" y2="40.386" width="0.2032" layer="20"/>
 <text x="0" y="-0.0635" size="0.0254" layer="214" font="vector">D:/SmartProjects/Snc/a4_bn_logo2.bmp</text>
-<text x="2.159" y="48.641" size="1.27" layer="16" font="vector" ratio="20" rot="MR180" align="center">x02</text>
+<text x="2.159" y="48.641" size="1.27" layer="16" font="vector" ratio="20" rot="MR180" align="center">x03</text>
 <rectangle x1="0.635" y1="22.352" x2="2.032" y2="30.607" layer="43"/>
 <rectangle x1="5.715" y1="23.114" x2="7.366" y2="30.607" layer="43"/>
 <rectangle x1="47.879" y1="10.795" x2="48.514" y2="11.303" layer="43"/>
