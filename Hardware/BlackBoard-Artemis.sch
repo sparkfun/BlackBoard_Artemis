@@ -30118,7 +30118,7 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <text x="200.406" y="41.402" size="2.54" layer="94" font="vector" ratio="15" align="center">Artemis</text>
 <text x="66.294" y="63.246" size="2.54" layer="94" font="vector" ratio="15" align="center">USB-to-Serial Converter</text>
 <text x="170.434" y="11.176" size="2.54" layer="94" font="vector">N. Seidle</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">X02</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">X03</text>
 <wire x1="147.32" y1="68.58" x2="162.56" y2="68.58" width="0.254" layer="97" style="longdash"/>
 <wire x1="162.56" y1="68.58" x2="248.92" y2="68.58" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="68.58" x2="147.32" y2="0" width="0.2032" layer="97" style="longdash"/>
