@@ -10,7 +10,7 @@ The BlackBoard Artemis has the improved power conditioning and USB to serial tha
 
 With 1M flash and 384k RAM you'll have plenty of room for your sketches. The Artemis module runs at 48MHz with a 96MHz turbo mode available and with Bluetooth to boot!
 
-The SparkFun BlackBoard Artemis is a great platform to 'kick the tires' of this amazing module. If you're interesting in testing out the full capabilities of the SparkFun Artemis module or if you're looking for more compact solution, be sure to checkout our Mega and Nano versions of the Artemis line.
+The SparkFun BlackBoard Artemis is a great platform to 'kick the tires' of this amazing module. If you're interesting in testing out the full capabilities of the SparkFun Artemis module or if you're looking for more compact solution, be sure to checkout our ATP and Nano versions of the Artemis line.
 
 **Note:** We are actively working on getting FCC and compliance certifications for the SparkFun Artemis Module. Once our certifications are complete we will be moving the BlackBoard to a RedBoard format with the FCC Certified version of the Artemis on board. *Please be aware* that this could happen as soon as a few weeks to a month so this BlackBoard version is for those of you who can't wait and want to start using the SparkFun Artemis as soon as possible!
 
